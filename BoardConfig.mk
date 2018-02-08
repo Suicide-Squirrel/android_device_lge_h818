@@ -21,10 +21,10 @@
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4341104640
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 24897388544
 
-TARGET_OTA_ASSERT_DEVICE := g4,p1,h815
+TARGET_OTA_ASSERT_DEVICE := g4,p1,h818
 
 # Kernel
-TARGET_KERNEL_CONFIG := aoscp_h815_defconfig
+TARGET_KERNEL_CONFIG := aoscp_h818_defconfig
 
 # inherit from the proprietary version
--include vendor/lge/h815/BoardConfigVendor.mk
+-include vendor/lge/h818/BoardConfigVendor.mk

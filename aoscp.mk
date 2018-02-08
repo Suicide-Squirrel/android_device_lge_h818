@@ -4,15 +4,15 @@ $(call inherit-product, vendor/aoscp/configs/common.mk)
 # Inherit telephony stuff
 $(call inherit-product, vendor/aoscp/configs/telephony.mk)
 
-# Inherit AOSP device configuration for H815
-$(call inherit-product, device/lge/h815/full_h815.mk)
+# Inherit AOSP device configuration for H818
+$(call inherit-product, device/lge/h818/full_h818.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
 # Setup device specific product configuration
-PRODUCT_NAME := aoscp_h815
+PRODUCT_NAME := aoscp_h818
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g4" \

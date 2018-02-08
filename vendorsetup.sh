@@ -1,2 +1,2 @@
-add_lunch_combo aoscp_h815-userdebug
-add_lunch_combo aoscp_h815-user
+add_lunch_combo aoscp_h818-userdebug
+add_lunch_combo aoscp_h818-user
